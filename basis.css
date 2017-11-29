@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    /*todo*/
+}
+
+body {
+    background-color: #2b2a33;
+}
+
+header {
+    background-color: #1e1d24;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "fantasy", monospace;
+    color: #8139ff;
+    margin: 0 auto;
+    width: 22vw;
+}
+
+h2 {
+    font-family: "fantasy", monospace;
+    color: #7552b2;
+    text-align: left;
+    margin-left: 10vw;
+}
+
+p {
+    /*todo*/
+}
+
+ul {
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f7f7f9;
+}
+
+/* --------------------------------             Logo        ----------------------------*/
+#logo {
+    max-width: 20vw;
+    max-height: 17vh;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2vh;
+}
+
+/* --------------------------------             Homepage        ----------------------------*/
+video {
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: block;
+    border: none;
+}
+
+/* --------------------------------             Menu        ----------------------------*/
+
+nav {
+    background-color: #1e1d24;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu a {
+    list-style: none;
+    font-family: "Coolvetica Rg", monospace;
+    font-size: 1.4em;
+    color: #f7f7f9;
+    text-align: center;
+    margin: auto;
+    display: block;
+    float: left;
+    padding: 1em 1em 0 1em;
+}
+
+.menu :hover {
+    color: #7552b2;
+    background: #070c0e;
+    border-bottom: solid #7552b2;
+}
+
+/* --------------------------------             Aanvullende vragen pagina        ----------------------------*/
+
+.vragen {
+    color: #f7f7f9;
+    width: 80%;
+    margin: auto;
+    font-family: "Coolvetica Rg", monospace;
+}
+
+/* --------------------------------             Grid afbeeldingen        ----------------------------*/
+#grid-movie {
+    overflow: hidden;
+    position: relative;
+    top: 3em;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.grid-movie-genre{
+    /*todo*/
+    box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #6935ff;
+}
+
+.grid-movie-content{
+    justify-content: space-between;
+    box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.05), inset -2px -2px 0 #6935ff;
+}
+
+.grid-movie-content img{
+    max-height: 40vh;
+    max-width: 50vw;
+}
+
+/* --------------------------------             Footer        ----------------------------*/
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    color: #f7f7f9;
+    background: #1e1d24;
+    height: 12vh;
+    text-align: right;
+}
